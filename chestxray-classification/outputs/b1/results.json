@@ -1,0 +1,63 @@
+{
+  "selected_learning_rate": 0.001,
+  "selected_best_epoch": 9,
+  "parameter_count": 99569,
+  "normalisation": {
+    "mean": 0.5716993808746338,
+    "std": 0.17409753799438477
+  },
+  "validation_table": [
+    {
+      "learning_rate": 1e-05,
+      "best_epoch": 20,
+      "epochs_run": 20,
+      "val_loss": 0.2695448696613312,
+      "val_error": 0.09732824563980103,
+      "val_sensitivity": 0.961439588688946,
+      "val_specificity": 0.7333333333333333
+    },
+    {
+      "learning_rate": 0.0001,
+      "best_epoch": 20,
+      "epochs_run": 20,
+      "val_loss": 0.07248753309249878,
+      "val_error": 0.028625965118408203,
+      "val_sensitivity": 0.9794344473007712,
+      "val_specificity": 0.9481481481481482
+    },
+    {
+      "learning_rate": 0.001,
+      "best_epoch": 9,
+      "epochs_run": 13,
+      "val_loss": 0.05970311164855957,
+      "val_error": 0.02099233865737915,
+      "val_sensitivity": 0.9897172236503856,
+      "val_specificity": 0.9481481481481482
+    },
+    {
+      "learning_rate": 0.01,
+      "best_epoch": 17,
+      "epochs_run": 20,
+      "val_loss": 0.06307435780763626,
+      "val_error": 0.024809181690216064,
+      "val_sensitivity": 0.974293059125964,
+      "val_specificity": 0.9777777777777777
+    },
+    {
+      "learning_rate": 0.1,
+      "best_epoch": 5,
+      "epochs_run": 9,
+      "val_loss": 0.16263550519943237,
+      "val_error": 0.08015269041061401,
+      "val_sensitivity": 0.9845758354755784,
+      "val_specificity": 0.7333333333333333
+    }
+  ],
+  "test": {
+    "loss": 0.8788354396820068,
+    "accuracy": 0.8125,
+    "error": 0.1875,
+    "sensitivity": 1.0,
+    "specificity": 0.5
+  }
+}
