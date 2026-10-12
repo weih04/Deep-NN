@@ -31,7 +31,6 @@ def calculate_rmse(model, dataset, batch_size):
 
 # new
 def calculate_r2(model, dataset, batch_size):
-    """R2 against the dataset's own mean, in SGD."""
     prediction, target = _collect_predictions(model, dataset, batch_size)
     residual_sum = (target - prediction).square().sum()
     total_sum = (target - target.mean()).square().sum()

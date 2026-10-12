@@ -68,11 +68,6 @@ def plot_rmse_curves(history, series, output_path, title, marker_epoch=None):
 
 def plot_ablation_summary(records, output_path,
                           title="A2 ablations: five seeds per variant (seeds paired)"):
-    """Per-seed points joined across variants, with the mean as a bar.
-
-    Seeds are paired across variants, so joining each seed shows whether a
-    variant effect holds run-by-run rather than only on average.
-    """
     output_path = Path(output_path)
     variants = list(dict.fromkeys(record["variant"] for record in records))
     seeds = sorted({record["seed"] for record in records})

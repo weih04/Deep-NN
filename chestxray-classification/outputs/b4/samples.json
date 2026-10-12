@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "test_indices": [
+    170,
+    346,
+    409,
+    516,
+    536
+  ],
+  "layers": {
+    "AlexNet-like": "features.4",
+    "VGG-like": "features.7",
+    "ResNet-like": "features.4"
+  },
+  "pneumonia_probability": {
+    "AlexNet-like": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "VGG-like": [
+      1.0,
+      1.0,
+      0.9998,
+      1.0,
+      1.0
+    ],
+    "ResNet-like": [
+      0.9995,
+      1.0,
+      0.9997,
+      1.0,
+      1.0
+    ]
+  }
+}

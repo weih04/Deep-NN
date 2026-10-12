@@ -1,0 +1,38 @@
+{
+  "region_area": {
+    "border": 0.234375,
+    "central_strip": 0.2734375,
+    "lung_fields": 0.4921875,
+    "lower_half": 0.5
+  },
+  "region_share": {
+    "AlexNet-like": {
+      "border": 0.20579302310943604,
+      "central_strip": 0.4372738301753998,
+      "lung_fields": 0.3569330871105194,
+      "lower_half": 0.6181432008743286
+    },
+    "VGG-like": {
+      "border": 0.13943715393543243,
+      "central_strip": 0.3694036304950714,
+      "lung_fields": 0.4911591410636902,
+      "lower_half": 0.5736485123634338
+    },
+    "ResNet-like": {
+      "border": 0.18566468358039856,
+      "central_strip": 0.4149802625179291,
+      "lung_fields": 0.3993549942970276,
+      "lower_half": 0.5876253843307495
+    }
+  },
+  "hot_region_brightness": {
+    "AlexNet-like": 0.09849099814891815,
+    "VGG-like": 0.04281080886721611,
+    "ResNet-like": 0.07460783421993256
+  },
+  "correlation": {
+    "AlexNet-like vs VGG-like": 0.3687205910682678,
+    "AlexNet-like vs ResNet-like": 0.5936191082000732,
+    "VGG-like vs ResNet-like": 0.44274789094924927
+  }
+}

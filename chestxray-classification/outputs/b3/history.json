@@ -1,0 +1,74 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.21489131115155394,
+    "val_loss": 0.26781609654426575,
+    "val_accuracy": 0.8988549709320068,
+    "val_sensitivity": 0.884318766066838,
+    "val_specificity": 0.9407407407407408
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.14017617126124435,
+    "val_loss": 0.117408886551857,
+    "val_accuracy": 0.9465649127960205,
+    "val_sensitivity": 0.9794344473007712,
+    "val_specificity": 0.8518518518518519
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.11564381928131706,
+    "val_loss": 0.08893421292304993,
+    "val_accuracy": 0.9618320465087891,
+    "val_sensitivity": 0.9665809768637532,
+    "val_specificity": 0.9481481481481482
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.0899837324490728,
+    "val_loss": 0.12959760427474976,
+    "val_accuracy": 0.9541984796524048,
+    "val_sensitivity": 0.9383033419023136,
+    "val_specificity": 1.0
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.07964950879662279,
+    "val_loss": 0.07225331664085388,
+    "val_accuracy": 0.9732824563980103,
+    "val_sensitivity": 0.974293059125964,
+    "val_specificity": 0.9703703703703703
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.06934381287407285,
+    "val_loss": 0.07355978339910507,
+    "val_accuracy": 0.9675572514533997,
+    "val_sensitivity": 0.9717223650385605,
+    "val_specificity": 0.9555555555555556
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.06523304649358877,
+    "val_loss": 0.15200205147266388,
+    "val_accuracy": 0.9427480697631836,
+    "val_sensitivity": 0.922879177377892,
+    "val_specificity": 1.0
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.05681157721239779,
+    "val_loss": 0.10772351175546646,
+    "val_accuracy": 0.9675572514533997,
+    "val_sensitivity": 0.9588688946015425,
+    "val_specificity": 0.9925925925925926
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.04588333913639422,
+    "val_loss": 0.09402846544981003,
+    "val_accuracy": 0.9675572514533997,
+    "val_sensitivity": 0.9717223650385605,
+    "val_specificity": 0.9555555555555556
+  }
+]

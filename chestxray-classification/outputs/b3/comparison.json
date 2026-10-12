@@ -1,0 +1,29 @@
+[
+  {
+    "architecture": "AlexNet-like (B1)",
+    "accuracy": 0.8125,
+    "sensitivity": 1.0,
+    "specificity": 0.5,
+    "error": 0.1875,
+    "parameters": 99569,
+    "flops": 39063616
+  },
+  {
+    "architecture": "VGG-like (B2)",
+    "accuracy": 0.8782051205635071,
+    "sensitivity": 0.9948717948717949,
+    "specificity": 0.6837606837606838,
+    "error": 0.12179487943649292,
+    "parameters": 18185,
+    "flops": 19464256
+  },
+  {
+    "architecture": "ResNet-like (B3)",
+    "accuracy": 0.9118589758872986,
+    "sensitivity": 0.9846153846153847,
+    "specificity": 0.7905982905982906,
+    "error": 0.08814102411270142,
+    "parameters": 77169,
+    "flops": 25297024
+  }
+]

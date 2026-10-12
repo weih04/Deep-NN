@@ -31,11 +31,6 @@ def parameter_breakdown(embedding_dim, hidden_width):
 
 
 def error_decomposition(selection):
-    """Split test error into systematic bias and spread around it.
-
-    RMSE alone cannot distinguish "the model is badly fitted" from "the model
-    is well fitted but calibrated to cheaper years". This split can.
-    """
     config = Config(
         hidden_width=selection["hidden_width"],
         embedding_dims=(selection["embedding_dim"],) * 4,

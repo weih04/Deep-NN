@@ -1,0 +1,28 @@
+{
+  "learning_rate": 0.001,
+  "batch_size": 16,
+  "best_epoch": 5,
+  "epochs_run": 9,
+  "parameter_count": 77169,
+  "flops": 25297024,
+  "normalisation": {
+    "mean": 0.5716993808746338,
+    "std": 0.17409753799438477
+  },
+  "validation": {
+    "batch_size": 16,
+    "best_epoch": 5,
+    "epochs_run": 9,
+    "val_loss": 0.07225331664085388,
+    "val_error": 0.026717543601989746,
+    "val_sensitivity": 0.974293059125964,
+    "val_specificity": 0.9703703703703703
+  },
+  "test": {
+    "loss": 0.25297486782073975,
+    "accuracy": 0.9118589758872986,
+    "error": 0.08814102411270142,
+    "sensitivity": 0.9846153846153847,
+    "specificity": 0.7905982905982906
+  }
+}

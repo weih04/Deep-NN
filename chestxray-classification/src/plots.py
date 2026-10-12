@@ -20,3 +20,27 @@ def plot_validation_curves(histories, metric, ylabel, path, title, label_format=
     figure.tight_layout()
     figure.savefig(path, dpi=150)
     plt.close(figure)
+
+
+def plot_gradcam_grid(images, heatmaps, probabilities, sample_ids, path, alpha=0.45):
+    """Rows: X-rays. Columns: the original, then one Grad-CAM overlay per model.
+
+    images: (N, H, W) in [0, 1]; heatmaps / probabilities: {model name: (N, H, W) / (N,)}.
+    """
+    names = list(heatmaps)
+    rows, cols = len(images), len(names) + 1
+    figure, axes = plt.subplots(rows, cols, figsize=(2.6 * cols, 2.6 * rows))
+    for row in range(rows):
+        axes[row, 0].imshow(images[row], cmap="gray", vmin=0, vmax=1)
+        axes[row, 0].set_title(f"test #{sample_ids[row]}", fontsize=9)
+        for col, name in enumerate(names, start=1):
+            axes[row, col].imshow(images[row], cmap="gray", vmin=0, vmax=1)
+            axes[row, col].imshow(heatmaps[name][row], cmap="jet", alpha=alpha, vmin=0, vmax=1)
+            axes[row, col].set_title(
+                f"{name}\np(pneumonia)={probabilities[name][row]:.2f}", fontsize=9
+            )
+    for axis in axes.flat:
+        axis.axis("off")
+    figure.tight_layout()
+    figure.savefig(path, dpi=150)
+    plt.close(figure)

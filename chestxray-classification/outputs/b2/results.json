@@ -1,0 +1,65 @@
+{
+  "selected_batch_size": 16,
+  "selected_best_epoch": 12,
+  "learning_rate": 0.001,
+  "batch_size": 16,
+  "parameter_count": 18185,
+  "normalisation": {
+    "mean": 0.5716993808746338,
+    "std": 0.17409753799438477
+  },
+  "validation_table": [
+    {
+      "batch_size": 16,
+      "best_epoch": 12,
+      "epochs_run": 16,
+      "val_loss": 0.05603771284222603,
+      "val_error": 0.02099233865737915,
+      "val_sensitivity": 0.987146529562982,
+      "val_specificity": 0.9555555555555556
+    },
+    {
+      "batch_size": 32,
+      "best_epoch": 7,
+      "epochs_run": 11,
+      "val_loss": 0.07880184054374695,
+      "val_error": 0.03244274854660034,
+      "val_sensitivity": 0.9665809768637532,
+      "val_specificity": 0.9703703703703703
+    },
+    {
+      "batch_size": 64,
+      "best_epoch": 11,
+      "epochs_run": 15,
+      "val_loss": 0.08547887951135635,
+      "val_error": 0.03244274854660034,
+      "val_sensitivity": 0.9768637532133676,
+      "val_specificity": 0.9407407407407408
+    },
+    {
+      "batch_size": 128,
+      "best_epoch": 15,
+      "epochs_run": 19,
+      "val_loss": 0.08823541551828384,
+      "val_error": 0.028625965118408203,
+      "val_sensitivity": 0.9974293059125964,
+      "val_specificity": 0.8962962962962963
+    },
+    {
+      "batch_size": 256,
+      "best_epoch": 16,
+      "epochs_run": 20,
+      "val_loss": 0.08724615722894669,
+      "val_error": 0.028625965118408203,
+      "val_sensitivity": 0.9820051413881749,
+      "val_specificity": 0.9407407407407408
+    }
+  ],
+  "test": {
+    "loss": 0.4068765938282013,
+    "accuracy": 0.8782051205635071,
+    "error": 0.12179487943649292,
+    "sensitivity": 0.9948717948717949,
+    "specificity": 0.6837606837606838
+  }
+}
