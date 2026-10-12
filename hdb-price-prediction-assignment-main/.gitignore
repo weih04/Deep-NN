@@ -10,7 +10,6 @@ solutions/
 *.pdf
 *.ipynb
 .venv/
-outputs/
 __pycache__/
 assignment/build/
 ResaleFlatPrices.csv

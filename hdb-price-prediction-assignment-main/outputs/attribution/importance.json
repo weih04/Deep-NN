@@ -1,0 +1,26 @@
+{
+  "A1 baseline": {
+    "month": 4088.625,
+    "town": 31888.197265625,
+    "flat_model_type": 42557.29296875,
+    "storey_range": 20203.005859375,
+    "dist_to_nearest_stn": 20727.708984375,
+    "dist_to_dhoby": 42811.86328125,
+    "degree_centrality": 5194.1015625,
+    "eigenvector_centrality": 10718.7880859375,
+    "remaining_lease_years": 45774.05859375,
+    "floor_area_sqm": 73842.734375
+  },
+  "A3 wide-and-deep (lambda=0.5)": {
+    "month": 4220.78369140625,
+    "town": 31883.1484375,
+    "flat_model_type": 40339.50390625,
+    "storey_range": 20294.7421875,
+    "dist_to_nearest_stn": 24839.05859375,
+    "dist_to_dhoby": 41296.50390625,
+    "degree_centrality": 6098.6708984375,
+    "eigenvector_centrality": 9961.0478515625,
+    "remaining_lease_years": 50200.7890625,
+    "floor_area_sqm": 69252.7421875
+  }
+}

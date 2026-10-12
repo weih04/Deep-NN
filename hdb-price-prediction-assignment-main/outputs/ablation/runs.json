@@ -1,0 +1,107 @@
+[
+  {
+    "variant": "baseline",
+    "seed": 42,
+    "parameter_count": 4813,
+    "test_rmse": 107818.6640625,
+    "test_r2": 0.5989850759506226
+  },
+  {
+    "variant": "baseline",
+    "seed": 43,
+    "parameter_count": 4813,
+    "test_rmse": 95533.8046875,
+    "test_r2": 0.6851622462272644
+  },
+  {
+    "variant": "baseline",
+    "seed": 44,
+    "parameter_count": 4813,
+    "test_rmse": 95653.5,
+    "test_r2": 0.6843727827072144
+  },
+  {
+    "variant": "baseline",
+    "seed": 45,
+    "parameter_count": 4813,
+    "test_rmse": 105335.546875,
+    "test_r2": 0.6172434687614441
+  },
+  {
+    "variant": "baseline",
+    "seed": 46,
+    "parameter_count": 4813,
+    "test_rmse": 96686.6015625,
+    "test_r2": 0.6775181889533997
+  },
+  {
+    "variant": "no_embeddings",
+    "seed": 42,
+    "parameter_count": 2561,
+    "test_rmse": 117099.015625,
+    "test_r2": 0.5269804000854492
+  },
+  {
+    "variant": "no_embeddings",
+    "seed": 43,
+    "parameter_count": 2561,
+    "test_rmse": 117298.6875,
+    "test_r2": 0.5253658294677734
+  },
+  {
+    "variant": "no_embeddings",
+    "seed": 44,
+    "parameter_count": 2561,
+    "test_rmse": 109588.84375,
+    "test_r2": 0.5857091546058655
+  },
+  {
+    "variant": "no_embeddings",
+    "seed": 45,
+    "parameter_count": 2561,
+    "test_rmse": 113502.671875,
+    "test_r2": 0.555588960647583
+  },
+  {
+    "variant": "no_embeddings",
+    "seed": 46,
+    "parameter_count": 2561,
+    "test_rmse": 114175.140625,
+    "test_r2": 0.5503073930740356
+  },
+  {
+    "variant": "sigmoid",
+    "seed": 42,
+    "parameter_count": 4813,
+    "test_rmse": 112836.921875,
+    "test_r2": 0.5607870817184448
+  },
+  {
+    "variant": "sigmoid",
+    "seed": 43,
+    "parameter_count": 4813,
+    "test_rmse": 102189.390625,
+    "test_r2": 0.6397663354873657
+  },
+  {
+    "variant": "sigmoid",
+    "seed": 44,
+    "parameter_count": 4813,
+    "test_rmse": 89895.03125,
+    "test_r2": 0.7212312817573547
+  },
+  {
+    "variant": "sigmoid",
+    "seed": 45,
+    "parameter_count": 4813,
+    "test_rmse": 114473.953125,
+    "test_r2": 0.5479504466056824
+  },
+  {
+    "variant": "sigmoid",
+    "seed": 46,
+    "parameter_count": 4813,
+    "test_rmse": 108004.1953125,
+    "test_r2": 0.5976037979125977
+  }
+]

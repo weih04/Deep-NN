@@ -1,0 +1,24 @@
+{
+  "selected_lambda": 0.0,
+  "baseline": {
+    "seeds": 5,
+    "test_rmse_mean": 100205.6234375,
+    "test_rmse_sd": 5899.274006442002,
+    "test_r2_mean": 0.652656352519989,
+    "test_r2_sd": 0.04127757940169557
+  },
+  "wide_deep (lambda=0.0)": {
+    "seeds": 5,
+    "test_rmse_mean": 96206.7640625,
+    "test_rmse_sd": 3211.7513216476946,
+    "test_r2_mean": 0.6804263949394226,
+    "test_r2_sd": 0.0210688930592806
+  },
+  "wide_deep (lambda=0.5)": {
+    "seeds": 5,
+    "test_rmse_mean": 97181.7640625,
+    "test_rmse_sd": 1960.2042913306818,
+    "test_r2_mean": 0.6741006135940552,
+    "test_r2_sd": 0.013244590162195159
+  }
+}

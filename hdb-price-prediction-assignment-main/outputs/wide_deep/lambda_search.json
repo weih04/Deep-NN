@@ -1,0 +1,32 @@
+[
+  {
+    "lambda": 0.0,
+    "epochs": 10,
+    "validation_rmse": 67755.5625,
+    "parameter_count": 4828
+  },
+  {
+    "lambda": 0.25,
+    "epochs": 10,
+    "validation_rmse": 68928.5703125,
+    "parameter_count": 4828
+  },
+  {
+    "lambda": 0.5,
+    "epochs": 10,
+    "validation_rmse": 68474.8671875,
+    "parameter_count": 4828
+  },
+  {
+    "lambda": 1.0,
+    "epochs": 10,
+    "validation_rmse": 70339.0078125,
+    "parameter_count": 4828
+  },
+  {
+    "lambda": 2.0,
+    "epochs": 10,
+    "validation_rmse": 70514.25,
+    "parameter_count": 4828
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "hidden_width": 256,
+  "embedding_dim": 2,
+  "best_epoch": 10,
+  "best_validation_rmse": 60305.88671875,
+  "parameter_count": 4813
+}

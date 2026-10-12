@@ -1,0 +1,9 @@
+{
+  "hidden_width": 256,
+  "embedding_dim": 2,
+  "epochs": 10,
+  "parameter_count": 4813,
+  "train_rmse": 40128.37109375,
+  "test_rmse": 107818.6640625,
+  "test_r2": 0.5989850759506226
+}

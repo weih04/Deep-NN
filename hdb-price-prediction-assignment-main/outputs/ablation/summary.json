@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "seeds": 5,
+    "test_rmse_mean": 100205.6234375,
+    "test_rmse_sd": 5899.274006442002,
+    "test_r2_mean": 0.652656352519989,
+    "test_r2_sd": 0.04127757940169557
+  },
+  "no_embeddings": {
+    "seeds": 5,
+    "test_rmse_mean": 114332.871875,
+    "test_rmse_sd": 3149.108112036477,
+    "test_r2_mean": 0.5487903475761413,
+    "test_r2_sd": 0.024677432693616403
+  },
+  "sigmoid": {
+    "seeds": 5,
+    "test_rmse_mean": 105479.8984375,
+    "test_rmse_sd": 9938.641949619394,
+    "test_r2_mean": 0.613467788696289,
+    "test_r2_sd": 0.07004289615288069
+  }
+}
